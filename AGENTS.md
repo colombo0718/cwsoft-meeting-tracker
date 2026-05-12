@@ -6,10 +6,11 @@
 ## 進入本 repo 時建議閱讀順序
 
 1. **`PROJECT.md`** — 專案是什麼、治理位階、AI 行為邊界、逐字稿整理 SOP（Step 1-5）
-2. **`worklogs/README.md`** — 人對 AI 工作紀錄的寫法、與 `meetings/` 的差異
-3. **`README.md`** — 各專案進度看板
+2. **`CONVENTIONS.md`** — worklog 寫作規則（Trigger / 命名 / Header / 必要段落 / 整理原則）
+3. **`worklogs/README.md`** — `worklogs/` 目錄定位、與 `meetings/` 的差異
+4. **`README.md`** — 各專案進度看板
 
-讀完上述 3 份檔案之後，再閱讀本檔下方的跨專案通用規範。
+讀完上述 4 份檔案之後，再閱讀本檔下方的跨專案通用規範。
 
 ---
 
