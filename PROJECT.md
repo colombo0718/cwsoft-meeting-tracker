@@ -64,7 +64,7 @@ cwsoft-project-tracker/
 └── customerlist.txt            ← 客戶正式名稱列表
 ```
 
-> `meetings/` 與 `worklogs/` 的差異與規範詳見 [`worklogs/README.md`](worklogs/README.md)。
+> `worklogs/` 寫作規範詳見 [`CONVENTIONS.md`](CONVENTIONS.md)。
 
 ---
 
