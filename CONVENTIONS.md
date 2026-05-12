@@ -4,7 +4,7 @@
 > 與「處理一份新逐字稿」SOP（見 `PROJECT.md`）平行存在、兩者性質不同：
 >
 > - 逐字稿是把人類會議結構化（雅婷語音 → 標準會議紀錄）
-> - worklog 是把 AI 協作脈絡留存（colombo × AI 推進工作的紀錄）
+> - worklog 是把 AI 協作脈絡留存（cwsoft 同仁 × 各種 agent 推進工作的紀錄）
 
 ---
 
@@ -65,9 +65,13 @@ worklogs/YYYY-MM-DD-主題關鍵字.md
 跨多台機器操作填 `筆電 + 個人主機` 等多值。
 
 **「參與者」**
-- 主要格式：`colombo0718 × Claude (model name)`
-- 例如：`colombo0718 × Claude (claude-haiku-4-5)`
-- 若 codex 或其他 agent 寫，填對應的 model 名稱
+- 主要格式：`{使用者} × {agent} (model name)`
+- 例如：
+  - `colombo0718 × Claude (claude-haiku-4-5)`
+  - `彥偉 × Codex (gpt-5.4)`
+  - `羿宏 × Cursor (claude-sonnet-4-6)`
+- 使用者填 cwsoft 同仁的稱呼（自己的名字 / 帳號）
+- agent 填工具名 + 模型名
 
 **「相關專案」**
 - 列本輪**真正有關**的 CWSoft 子專案
@@ -120,5 +124,6 @@ worklogs/YYYY-MM-DD-主題關鍵字.md
 
 差異：
 - LL 版的「相關專案」列 LL 子專案；本檔的「相關專案」列 CWSoft 子專案
-- LL 版適用「colombo × Claude 的會議紀錄」；本檔適用「colombo × AI 的工作紀錄」
+- LL 版適用「colombo × Claude 的會議紀錄」；本檔適用「cwsoft 同仁 × 各種 agent 的工作紀錄」
 - 本檔多一條「守邊界」（不洩漏 LL 內容）
+- 本檔的使用者不限 colombo——任何 cwsoft 同仁都可以寫 worklog

@@ -5,7 +5,7 @@
 CWSoft 公司的**工作紀錄與專案追蹤中心**——兩種內容並存：
 
 1. **人對人會議紀錄**：整理同事 / 客戶會議逐字稿，產出標準會議紀錄與專案狀態檔
-2. **人對 AI 工作紀錄**：colombo 與 Claude 協作推進工作的紀錄
+2. **人對 AI 工作紀錄**：cwsoft 同仁與各種 agent（Claude / Codex / Cursor / ...）協作推進工作的紀錄
 
 兩者皆供老闆透過 AI 查閱資訊部門工作進度。
 
@@ -37,7 +37,7 @@ colombo 心中的治理結構：
 
 ```
 ✓ 允許：在本 repo 內讀寫、推進 CWSoft 相關工作
-✓ 允許：worklogs/ 寫 colombo × AI 的工作紀錄
+✓ 允許：worklogs/ 寫 cwsoft 同仁 × 各種 agent 的工作紀錄
 ✓ 允許：透過 SOP（CLAUDE.md）整理會議與更新 projects/
 ✓ 允許：跟老闆 / 同事透過 AI 查閱對話
 
@@ -56,7 +56,7 @@ colombo 心中的治理結構：
 cwsoft-project-tracker/
 ├── minutes/                    ← 原始逐字稿（雅婷提供，.txt）
 ├── meetings/                   ← 整理後會議紀錄（.md）——人對人
-├── worklogs/                   ← 人對 AI 工作紀錄（.md）——colombo × Claude
+├── worklogs/                   ← 人對 AI 工作紀錄（.md）——cwsoft 同仁 × 各種 agent
 ├── projects/                   ← 各專案狀態檔（每專案一份 .md）
 ├── business/                   ← 業務相關文件
 ├── 語者、客戶、專案名稱校正.md  ← 語者辨識規則、名稱對照
@@ -123,7 +123,7 @@ cwsoft-project-tracker/
 
 ## SOP：寫 worklog（人對 AI 工作紀錄）
 
-worklog 是 colombo 跟 AI 的工作協作紀錄，存於 `worklogs/`。
+worklog 是 cwsoft 同仁跟各種 agent 的工作協作紀錄，存於 `worklogs/`。
 **寫作規範詳見 [`CONVENTIONS.md`](CONVENTIONS.md)**——含：
 - 何時寫 worklog（Trigger：對話超過 30 則 / 完成架構決策 / 有實質改檔 等）
 - 檔案命名（`YYYY-MM-DD-主題.md`，kebab-case）

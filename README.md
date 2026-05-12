@@ -4,7 +4,7 @@
 
 **兩種內容並存：**
 - `meetings/` — 人對人會議紀錄（同事 / 客戶會議，從雅婷逐字稿整理）
-- `worklogs/` — colombo 與 AI 協作推進工作的紀錄
+- `worklogs/` — cwsoft 同仁與各種 agent（Claude / Codex / Cursor / ...）協作推進工作的紀錄
 
 兩者皆供老闆透過 AI 查閱資訊部門工作進度。
 
@@ -38,7 +38,7 @@
 cwsoft-project-tracker/
 ├── minutes/        # 原始逐字稿（.txt），由雅婷提供
 ├── meetings/       # 整理後的標準會議紀錄（.md）——人對人
-├── worklogs/       # 人對 AI 工作紀錄（.md）——colombo × Claude
+├── worklogs/       # 人對 AI 工作紀錄（.md）——cwsoft 同仁 × 各種 agent
 ├── projects/       # 各專案狀態檔（.md）
 ├── business/       # 業務相關文件
 ├── CLAUDE.md       # Claude Code 操作 SOP
