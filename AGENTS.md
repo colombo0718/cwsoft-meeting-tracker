@@ -1,9 +1,15 @@
-# CLAUDE.md — 通用工作規範
+# AGENTS.md — 通用工作規範（給非 Claude agent）
 
-> 這份文件是跨專案通用的 AI 協作規範。
-> 專案本身的架構、協定、技術細節寫在 `PROJECT.md`。
+> 給 codex / cursor / 其他非 Claude agent 讀。
+> 本檔內容與 `CLAUDE.md` 同源（兩份檔案應保持同步）。
 
-@PROJECT.md
+## 進入本 repo 時建議閱讀順序
+
+1. **`PROJECT.md`** — 專案是什麼、治理位階、AI 行為邊界、逐字稿整理 SOP（Step 1-5）
+2. **`worklogs/README.md`** — 人對 AI 工作紀錄的寫法、與 `meetings/` 的差異
+3. **`README.md`** — 各專案進度看板
+
+讀完上述 3 份檔案之後，再閱讀本檔下方的跨專案通用規範。
 
 ---
 
