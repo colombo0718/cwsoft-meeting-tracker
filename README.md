@@ -1,6 +1,12 @@
-# CWSoft 會議紀錄與任務追蹤
+# CWSoft 工作紀錄與專案追蹤
 
-本 repo 用於整理 CWSoft 公司的會議逐字稿，並追蹤各專案任務進度。
+本 repo 是 CWSoft 公司的工作紀錄與專案追蹤中心。
+
+**兩種內容並存：**
+- `meetings/` — 人對人會議紀錄（同事 / 客戶會議，從雅婷逐字稿整理）
+- `worklogs/` — colombo 與 AI 協作推進工作的紀錄
+
+兩者皆供老闆透過 AI 查閱資訊部門工作進度。
 
 ## 專案狀態
 
@@ -29,10 +35,12 @@
 ## 資料夾結構
 
 ```
-cwsoft-meeting-tracker/
+cwsoft-project-tracker/
 ├── minutes/        # 原始逐字稿（.txt），由雅婷提供
-├── meetings/       # 整理後的標準會議紀錄（.md）
+├── meetings/       # 整理後的標準會議紀錄（.md）——人對人
+├── worklogs/       # 人對 AI 工作紀錄（.md）——colombo × Claude
 ├── projects/       # 各專案狀態檔（.md）
+├── business/       # 業務相關文件
 ├── CLAUDE.md       # Claude Code 操作 SOP
 └── README.md       # 本檔案（進度看板）
 ```

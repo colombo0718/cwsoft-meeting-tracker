@@ -1,25 +1,31 @@
-# PROJECT.md — cwsoft-meeting-tracker
+# PROJECT.md — cwsoft-project-tracker
 
 ## 這個專案是什麼
 
-整理 CWSoft 公司會議逐字稿、追蹤各專案任務進度的工具型 repo。
-輸入：雅婷語音辨識逐字稿（.txt）
-輸出：結構化會議紀錄（.md）+ 各專案狀態檔
+CWSoft 公司的**工作紀錄與專案追蹤中心**——兩種內容並存：
+
+1. **人對人會議紀錄**：整理同事 / 客戶會議逐字稿，產出標準會議紀錄與專案狀態檔
+2. **人對 AI 工作紀錄**：colombo 與 Claude 協作推進工作的紀錄
+
+兩者皆供老闆透過 AI 查閱資訊部門工作進度。
 
 ---
 
 ## 架構概覽
 
 ```
-cwsoft-meeting-tracker/
+cwsoft-project-tracker/
 ├── minutes/                    ← 原始逐字稿（雅婷提供，.txt）
-├── meetings/                   ← 整理後會議紀錄（.md）
+├── meetings/                   ← 整理後會議紀錄（.md）——人對人
+├── worklogs/                   ← 人對 AI 工作紀錄（.md）——colombo × Claude
 ├── projects/                   ← 各專案狀態檔（每專案一份 .md）
 ├── business/                   ← 業務相關文件
 ├── 語者、客戶、專案名稱校正.md  ← 語者辨識規則、名稱對照
-├── 會議記錄整理模板.md          ← 輸出格式規範
+├── 會議記錄整理模板.md          ← meetings/ 輸出格式規範
 └── customerlist.txt            ← 客戶正式名稱列表
 ```
+
+> `meetings/` 與 `worklogs/` 的差異與規範詳見 [`worklogs/README.md`](worklogs/README.md)。
 
 ---
 
