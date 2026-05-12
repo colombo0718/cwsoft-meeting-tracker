@@ -11,6 +11,45 @@ CWSoft 公司的**工作紀錄與專案追蹤中心**——兩種內容並存：
 
 ---
 
+## 治理層定位（給 AI 讀）
+
+本 repo 是 **MM 管轄的次級治理工具**：
+
+```
+colombo 心中的治理結構：
+
+  matrix-manager (MM)           ← colombo 的最高治理層
+       │
+       ├── LL 宇宙專案群        ← 個人創業
+       ├── 論文 / 教學
+       └── cwsoft-project-tracker  ← 本 repo（次級治理工具，CWSoft 範圍）
+              │
+              ├── meetings/   人對人會議
+              ├── worklogs/   人對 AI 工作紀錄
+              └── projects/   11 個子專案狀態檔
+```
+
+- **對 colombo 視角**：MM 之下的次級治理層
+- **對老闆 / 同事視角**：CWSoft 公司工作的最高記錄中心
+- **性質**：跟 MM 同類（都是「專案管理工具」），但範圍只限 CWSoft
+
+### 邊界（AI 進來時的行為準則）
+
+```
+✓ 允許：在本 repo 內讀寫、推進 CWSoft 相關工作
+✓ 允許：worklogs/ 寫 colombo × AI 的工作紀錄
+✓ 允許：透過 SOP（CLAUDE.md）整理會議與更新 projects/
+✓ 允許：跟老闆 / 同事透過 AI 查閱對話
+
+✗ 不要：讀寫 LL 宇宙的內容（leaflune / II / RR / DD / XX 等）
+✗ 不要：跨界引用個人創業相關資訊（避免商業/隱私洩漏）
+✗ 不要：把 matrix-manager 內部結構暴露給對外讀者
+```
+
+老闆 / 同事用 AI 查本 repo 時、AI 只看本 repo 範圍即可。
+
+---
+
 ## 架構概覽
 
 ```
